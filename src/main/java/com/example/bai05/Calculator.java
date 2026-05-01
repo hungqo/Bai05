@@ -51,7 +51,6 @@ public class Calculator {
 
         return b;
     }
-
     public boolean isEven(int number) {
         logger.info("Checking even number: number={}", number);
         return number % 2 == 0;
