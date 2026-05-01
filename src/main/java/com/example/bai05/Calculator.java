@@ -41,4 +41,14 @@ public class Calculator {
 
         return b;
     }
+
+    public int min(int a, int b) {
+        logger.info("Finding min number: a={}, b={}", a, b);
+
+        if (a < b) {
+            return a;
+        }
+
+        return b;
+    }
 }
