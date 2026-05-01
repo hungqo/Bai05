@@ -46,4 +46,19 @@ class CalculatorTest {
     void testMaxWhenSecondNumberIsGreater() {
         assertEquals(20, calculator.max(10, 20));
     }
+
+    @Test
+    void testMin() {
+        assertEquals(5, calculator.min(10, 5));
+    }
+
+    @Test
+    void testIsEven() {
+        assertEquals(true, calculator.isEven(10));
+    }
+
+    @Test
+    void testAbs() {
+        assertEquals(10, calculator.abs(-10));
+    }
 }
