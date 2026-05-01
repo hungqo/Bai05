@@ -51,4 +51,19 @@ public class Calculator {
 
         return b;
     }
+
+    public boolean isEven(int number) {
+        logger.info("Checking even number: number={}", number);
+        return number % 2 == 0;
+    }
+
+    public int abs(int number) {
+        logger.info("Calculating absolute value: number={}", number);
+
+        if (number < 0) {
+            return -number;
+        }
+
+        return number;
+    }
 }
